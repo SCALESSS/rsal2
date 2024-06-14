@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #e35e05;
+  color: #47e4fc;
+  padding: 0px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  border: 2px solid #333; /* border lebih spesifik */
+  background-color: #e35e05; /* warna latar belakang */
+  padding: 10px 0; /* padding untuk menambah ruang vertikal */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* efek bayangan */
+}
+
+.navbar a {
+  text-decoration: none; /* menghapus garis bawah pada link */
+  color: #333; /* warna teks */
+  padding: 10px 20px; /* padding pada link */
+  margin: 0 10px; /* margin antara link */
+  transition: background-color 0.3s ease, color 0.3s ease; /* animasi transisi */
+  border-radius: 4px; /* border radius pada link */
+}
+
+.navbar a:hover {
+  background-color: #1f2932; /* warna latar belakang saat hover */
+  color: #ff0f0f; /* warna teks saat hover */
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: mclawsuit;
+  font-size: 30px;
+  width: 100%; /* Membuat elemen mengambil lebar penuh */
+}
+
+.h2 h2 {
+  display: inline-block; /* Membuat border hanya mengelilingi teks */
+  border: 2px solid #27c7e0; /* Mengatur warna dan ketebalan border */
+  padding: 10px; /* Menambahkan ruang di dalam border */
+  margin: 0; /* Menghilangkan margin default pada elemen h2 */
+  font-family: mclawsuit;
+  max-width: 80%; /* Atur lebar maksimum */
+  width: auto; /* Atur lebar sesuai dengan konten */
+}
+
+.text-container {
+  text-align: center;
+}
+
+.sub {
+  color: #f4a20a; /* Warna teks subtitle */
+  font-size: 18px;
+  font-weight: bold;
+  margin: 70px 0 0 25px;
+}
+
+.main-title {
+  color: #f30606; /* Warna teks utama */
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px 0 0 20px;
+}
+
+.header img {
+  width: 100%;
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.gameimage1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%; /* Membuat elemen mengambil lebar penuh */
+  border-style: solid;
+  margin-top: 20px;
+}
+
+.gameimage1 img {
+  max-width: 100%; /* Mengatur gambar agar tidak melebihi lebar elemen induk */
+  width: auto; /* Mengatur lebar sesuai dengan konten */
+  height: auto; /* Mengatur tinggi sesuai dengan konten */
+}
+
+.gameimage2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%; /* Membuat elemen mengambil lebar penuh */
+  margin-top: 10px;
+}
+
+.gameimage2 img {
+  max-width: 100%; /* Mengatur gambar agar tidak melebihi lebar elemen induk */
+  width: auto; /* Mengatur lebar sesuai dengan konten */
+  height: auto; /* Mengatur tinggi sesuai dengan konten */
+}
+
+.gameimage3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%; /* Membuat elemen mengambil lebar penuh */
+  margin-top: 10px;
+  border-style: solid;
+}
+
+.gameimage3 img {
+  max-width: 100%; /* Mengatur gambar agar tidak melebihi lebar elemen induk */
+  width: auto; /* Mengatur lebar sesuai dengan konten */
+  height: auto; /* Mengatur tinggi sesuai dengan konten */
+}
+
+.gameimage4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%; /* Membuat elemen mengambil lebar penuh */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gameimage4 img {
+  max-width: 100%; /* Mengatur gambar agar tidak melebihi lebar elemen induk */
+  width: auto; /* Mengatur lebar sesuai dengan konten */
+  height: auto; /* Mengatur tinggi sesuai dengan konten */
+}
+
+.promo {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #e35e05;
+  border: 2px solid #333; /* border lebih spesifik */
+  padding: 10px 0; /* padding untuk menambah ruang vertikal */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #e35e05;
+  text-align: center;
+  padding: 10px;
+}
